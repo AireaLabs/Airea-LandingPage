@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airea | Calidad del aire</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="header">
+        <nav class="nav-bar">
+
+            <a class="brand" href="landing.html">
+                <img src="assets/images/logo.png" alt="Logo de Airea">
+                <span>Airea</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#producto">Producto</a>
+                <a href="#funciones">Cómo funciona</a>
+                <a href="#calidad">Calidad del aire</a>
+                <a href="#preguntas">Preguntas frecuentes</a>
+            </div>
+
+            <div class="nav-actions">
+                <a class="login-link" href="pages/login.html">Iniciar sesión</a>
+                <a class="primary-button button-small" href="pages/registro.html">Unirse</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Presentación principal -->
+        <section class="hero" id="producto">
+            <div class="hero-content">
+
+                <div class="hero-text">
+                    <p class="section-tag">Inteligencia ambiental para tu día a día</p>
+
+                    <h1>El aire cambia. Tu forma de moverte, también.</h1>
+
+                    <p class="description">
+                        Consulta las condiciones ambientales, descubre qué significan
+                        para tu salud y encuentra mejores momentos y rutas para
+                        disfrutar la ciudad.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a class="primary-button" href="pages/registro.html">Comenzar</a>
+                        <a class="secondary-button" href="#funciones">Descubrir cómo funciona</a>
+                    </div>
+
+                    <p class="demo-note">
+                        Explora la plataforma.
+                    </p>
+                </div>
+
+                <!-- Información del AQI -->
+                <div class="hero-preview">
+
+                    <article class="card-calidad">
+                        <div class="card-top">
+                            <div>
+                                <p class="location">
+                                    <span class="material-symbols-rounded">location_on</span>
+                                    Surquillo, Lima
+                                </p>
+                                <p class="update-time">Hoy, 10:30 a. m.</p>
+                            </div>
+
+                            <span class="demo-label">Datos</span>
+                        </div>
+
+                        <div class="aqi-content">
+                            <div class="aqi-circle">
+                                <div>
+                                    <span class="aqi-number">68</span>
+                                    <span class="aqi-label">AQI</span>
+                                </div>
+                            </div>
+
+                            <div class="aqi-description">
+                                <span class="level-label">Moderado</span>
+                                <p>
+                                    La calidad del aire es aceptable para la mayoría.
+                                    Las personas sensibles podrían notar molestias
+                                    durante esfuerzos prolongados.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Tarjetas de información -->
+                    <div class="preview-cards">
+
+                        <article class="card-horario">
+                            <h3>
+                                <span class="material-symbols-rounded">schedule</span>
+                                Sugerencia horaria
+                            </h3>
+
+                            <p>
+                                Consulta una alternativa con menor exposición
+                                para realizar tu actividad.
+                            </p>
+
+                            <div class="card-footer">
+                                <span>Horario sugerido</span>
+                                <span class="time-label">16:00</span>
+                            </div>
+                        </article>
+
+                        <article class="card-pronostico">
+                            <h3>
+                                <span class="material-symbols-rounded">monitoring</span>
+                                Pronóstico AQI
+                            </h3>
+
+                            <div class="horarios">
+                                <div>
+                                    <span>09:00</span>
+                                    <b>72</b>
+                                    <small>Moderado</small>
+                                </div>
+
+                                <div>
+                                    <span>12:00</span>
+                                    <b>58</b>
+                                    <small>Moderado</small>
+                                </div>
+
+                                <div class="horario-activo">
+                                    <span>16:00</span>
+                                    <b>49</b>
+                                    <small>Bueno</small>
+                                </div>
+
+                                <div>
+                                    <span>19:00</span>
+                                    <b>64</b>
+                                    <small>Moderado</small>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Funciones principales -->
+        <section class="section" id="funciones">
+            <div class="section-content">
+
+                <h2 class="section-title">Más claridad antes de cada salida</h2>
+
+                <div class="features">
+
+                    <article class="card-funcion">
+                        <div class="feature-icon">
+                            <span class="material-symbols-rounded">air</span>
+                        </div>
+                        <h3>Comprende el aire</h3>
+                        <p>
+                            Conoce los niveles de calidad del aire mediante
+                            indicadores y explicaciones fáciles de entender.
+                        </p>
+                    </article>
+
+                    <article class="card-funcion">
+                        <div class="feature-icon">
+                            <span class="material-symbols-rounded">query_stats</span>
+                        </div>
+                        <h3>Anticipa las condiciones</h3>
+                        <p>
+                            Revisa la tendencia de las últimas horas y consulta
+                            el pronóstico para organizar tus actividades.
+                        </p>
+                    </article>
+
+                    <article class="card-funcion">
+                        <div class="feature-icon">
+                            <span class="material-symbols-rounded">directions_run</span>
+                        </div>
+                        <h3>Adapta tus actividades</h3>
+                        <p>
+                            Evalúa la duración, el horario y el tipo de actividad
+                            antes de salir.
+                        </p>
+                    </article>
+
+                    <article class="card-funcion">
+                        <div class="feature-icon">
+                            <span class="material-symbols-rounded">route</span>
+                        </div>
+                        <h3>Compara alternativas</h3>
+                        <p>
+                            Compara rutas y horarios para identificar opciones
+                            con menor exposición estimada.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Planificación de actividades -->
+        <section class="section-planificacion">
+            <div class="section-content planning-content">
+
+                <div class="planning-text">
+                    <p class="section-tag">Planificación inteligente</p>
+
+                    <h2>
+                        Planificar una salida también es cuidar
+                        a quienes te acompañan
+                    </h2>
+
+                    <p>
+                        Considera el contexto de tu actividad y recibe
+                        recomendaciones preventivas. Por ejemplo, una salida
+                        con niños puede requerir una evaluación especial.
+                    </p>
+
+                    <p class="disclaimer">
+                        <span class="material-symbols-rounded">info</span>
+                        Airea no sustituye la evaluación médica.
+                    </p>
+                </div>
+
+                <article class="card-planificacion">
+                    <h3>Ejemplo de planificación</h3>
+
+                    <div class="planning-row">
+                        <span>Contexto</span>
+                        <b>Salida con niños</b>
+                    </div>
+
+                    <div class="planning-row">
+                        <span>Actividad</span>
+                        <b>Caminata</b>
+                    </div>
+
+                    <div class="planning-row">
+                        <span>Duración</span>
+                        <b>30 minutos</b>
+                    </div>
+
+                    <div class="planning-row">
+                        <span>Horario</span>
+                        <b>16:00</b>
+                    </div>
+
+                    <div class="planning-row">
+                        <span>Condición del aire</span>
+                        <b class="good-text">Bueno (49)</b>
+                    </div>
+
+                    <p class="recommendation">
+                        <b>Recomendación:</b> según este ejemplo, podría ser
+                        un momento adecuado para una caminata corta.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Niveles de calidad del aire -->
+        <section class="section" id="calidad">
+            <div class="section-content">
+
+                <h2 class="section-title">Entiende los niveles del AQI</h2>
+
+                <div class="aqi-levels">
+
+                    <article class="level-card level-good">
+                        <div class="level-color"></div>
+                        <h3>Bueno</h3>
+                        <p>0 - 50</p>
+                        <span>Verde</span>
+                    </article>
+
+                    <article class="level-card level-moderate">
+                        <div class="level-color"></div>
+                        <h3>Moderado</h3>
+                        <p>51 - 100</p>
+                        <span>Amarillo</span>
+                    </article>
+
+                    <article class="level-card level-sensitive">
+                        <div class="level-color"></div>
+                        <h3>Dañino para grupos sensibles</h3>
+                        <p>101 - 150</p>
+                        <span>Naranja</span>
+                    </article>
+
+                    <article class="level-card level-unhealthy">
+                        <div class="level-color"></div>
+                        <h3>Dañino</h3>
+                        <p>151 - 200</p>
+                        <span>Rojo</span>
+                    </article>
+
+                    <article class="level-card level-hazard">
+                        <div class="level-color"></div>
+                        <h3>Peligroso</h3>
+                        <p>201 - 300</p>
+                        <span>Púrpura</span>
+                    </article>
+
+                </div>
+
+                <p class="source-note">
+                    La escala mostrada toma como referencia el AQI de la EPA.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Preguntas frecuentes -->
+        <section class="section faq-section" id="preguntas">
+            <div class="section-content">
+
+                <h2 class="section-title">Preguntas frecuentes</h2>
+
+                <div class="faq-list">
+
+                    <article class="card-pregunta">
+                        <h3>¿Qué es Airea?</h3>
+                        <p>
+                            Airea es una plataforma que presenta información
+                            sobre la calidad del aire y la convierte en
+                            recomendaciones para planificar actividades.
+                        </p>
+                    </article>
+
+                    <article class="card-pregunta">
+                        <h3>¿Cómo interpreta la calidad del aire?</h3>
+                        <p>
+                            Utiliza el AQI para mostrar un nivel y una explicación
+                            sencilla sobre las condiciones ambientales.
+                        </p>
+                    </article>
+
+                    <article class="card-pregunta">
+                        <h3>¿Qué significa AQI?</h3>
+                        <p>
+                            Es el Índice de Calidad del Aire, que comunica qué
+                            tan limpio o contaminado está el aire y cuáles
+                            podrían ser sus efectos en la salud.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Invitación final -->
+        <section class="final-section">
+            <div class="section-content">
+
+                <h2>Tu próxima salida puede empezar con una mejor decisión</h2>
+
+                <p>
+                    Consulta las condiciones ambientales y descubre cómo
+                    Airea puede ayudarte a planificar tu día.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="secondary-button" href="pages/login.html">Iniciar sesión</a>
+                    <a class="primary-button" href="pages/registro.html">Unirse</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <a class="brand" href="landing.html">
+                <img src="assets/images/logo.png" alt="Logo de Airea">
+                <span>Airea</span>
+            </a>
+
+            <a href="#preguntas">Preguntas frecuentes</a>
+
+            <span>© 2026 Airea. Todos los derechos reservados.</span>
+
+        </div>
+    </footer>
+
+</body>
+</html>
