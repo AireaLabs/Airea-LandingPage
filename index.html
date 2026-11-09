@@ -12,13 +12,18 @@
     <!-- Barra de navegación -->
     <header class="header">
         <nav class="nav-bar">
-
+            
             <a class="brand" href="index.html">
                 <img src="assets/images/logo.png" alt="Logo de Airea">
                 <span>Airea</span>
             </a>
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="material-symbols-rounded">menu</span>
+            </label>
 
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <a href="#producto">Producto</a>
                 <a href="#funciones">Cómo funciona</a>
                 <a href="#calidad">Calidad del aire</a>
@@ -29,6 +34,18 @@
                 <a class="login-link" href="login.html">Iniciar sesión</a>
                 <a class="primary-button button-small" href="registro.html">Unirse</a>
             </div>
+
+            <!--menú hamburguesa-->
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span class="material-symbols-rounded">menu</span>
+            </button>
 
         </nav>
     </header>
@@ -322,6 +339,21 @@
 
             </div>
         </section>
+        
+        <!-- Video de presentación -->
+        <section class="video-section" id="presentacion">
+            <div class="section-content">
+                <p class="section-tag">Conoce Airea</p>
+                <h2 class="section-title">Descubre cómo cuidar tu exposición al aire</h2>
+                <p class="video-description">
+                    Conoce nuestra propuesta y cómo puede ayudarte a tomar
+                    decisiones informadas antes de salir.
+                </p>
+                <video src="assets/media/presentation.mp4" controls preload="metadata" playsinline class="video-container">
+                    Video Presentación
+                </video>
+            </div>
+        </section>
 
         <!-- Preguntas frecuentes -->
         <section class="section faq-section" id="preguntas">
@@ -364,7 +396,6 @@
         <!-- Invitación final -->
         <section class="final-section">
             <div class="section-content">
-
                 <h2>Tu próxima salida puede empezar con una mejor decisión</h2>
 
                 <p>
@@ -376,27 +407,44 @@
                     <a class="secondary-button" href="login.html">Iniciar sesión</a>
                     <a class="primary-button" href="registro.html">Unirse</a>
                 </div>
-
             </div>
         </section>
-
     </main>
 
     <!-- Pie de página -->
     <footer class="footer">
-        <div class="footer-content">
+        <div class="footer-container">
 
-            <a class="brand" href="index.html">
+            <div class="footer-brand">
                 <img src="assets/images/logo.png" alt="Logo de Airea">
-                <span>Airea</span>
-            </a>
+                <p>Respira informado. Vive mejor.</p>
+                <p>Conoce la calidad del aire y toma mejores decisiones para cuidar tu salud.</p>
+            </div>
 
-            <a href="#preguntas">Preguntas frecuentes</a>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>¿Tienes alguna consulta o sugerencia?</p>
+                <a href="mailto:contacto@airea.com">airealabs@airea.com</a>
+            </div>
 
-            <span>© 2026 Airea. Todos los derechos reservados.</span>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="https://www.instagram.com/" target="_blank">
+                    Instagram
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    Facebook
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank">
+                    TikTok
+                </a>
+            </div>
 
         </div>
-    </footer>
 
+        <div class="footer-bottom">
+            <p>© 2026 Airea. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
