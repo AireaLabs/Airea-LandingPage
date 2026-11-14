@@ -1,0 +1,9 @@
+# Configuración local de WebStorm / IntelliJ
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de registro
+*.log
