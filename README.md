@@ -136,7 +136,7 @@ Luego se crea un Pull Request desde la rama feature hacia `develop`. Los cambios
 - **Repositorio:** https://github.com/AireaLabs/Airea-LandingPage
 - **Sitio publicado:** https://airealabs.github.io/Airea-LandingPage/
 
-Si GitHub Pages está configurado para publicar el contenido de `public/`, se debe utilizar un flujo de despliegue compatible con esa carpeta. La publicación desde la raíz de `main` requiere una configuración distinta.
+Después de integrar la nueva estructura, se debe revisar la configuración de GitHub Pages. La publicación directa desde una rama permite seleccionar la raíz del repositorio o la carpeta `/docs`, pero no una carpeta arbitraria como `/public`. Para conservar la estructura solicitada, configura GitHub Pages con **GitHub Actions** y publica el contenido de `public/` como artefacto. Hasta completar ese ajuste, la URL anterior podría seguir mostrando la última versión publicada y no necesariamente los cambios de esta rama.
 
 ## Equipo de desarrollo
 
